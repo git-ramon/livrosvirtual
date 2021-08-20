@@ -1,0 +1,76 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+nav{
+    
+    display: block;
+    background-image: url(img/fundolivro.jpg);
+    background-size: 100%;
+}
+
+body{
+    
+    margin: 0px;
+    background-image: url(img/fundolivro.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+nav ul{
+    display: inline-flex;
+}
+
+nav ul li{
+    
+    padding: 10px;
+}
+
+nav ul a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+	color:white;
+    
+	}
+
+footer{
+    display: block;
+    background-color: rgb(111, 8, 247);
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+section{
+    margin-left: 10px;
+}
+
+footer h4{
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.titulolivraria{
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: rgb(109, 105, 105) 4px 4px 4px;
+}
+
+h2{
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: rgb(109, 105, 105) 4px 4px 4px;
+}
