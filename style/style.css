@@ -102,6 +102,27 @@ h2{
     color: black;
 }
 
+form{
+    padding-left: 20px;
+    min-width: 100px;
+    max-width: 900px;
+    width: 100%;
+}
+/* .city{
+    min-width: 100px;
+    max-width: 290px;
+    width: 100%;
+}
+*/
+
+.est{
+    min-width: 100px;
+    max-width: 290px;
+    width: 100%;
+}
+
+
+
 
 
 

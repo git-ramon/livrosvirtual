@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Contato</title>
 </head>
 <body>
@@ -21,8 +25,73 @@
     <section>
         <h2 class="titulocontato">Contato</h2>
     </section>
+    <form>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationServer01">Primeiro nome</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Nome" value="Informe seu Nome" required>
+            <div class="valid-feedback">
+              Tudo certo!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServer02">Sobrenome</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Sobrenome" value="Informe seu Sobrenome" required>
+            <div class="valid-feedback">
+              Tudo certo!
+            </div>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-8 mb-3">
+            <label for="validationServer03">Cidade</label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Informe sua Cidade" required>
+            <div class="invalid-feedback">
+              Por favor, informe uma cidade válida.
+            </div>
+          </div>
+        </div>
+          <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationServer04">Estado</label>
+            <input type="text" class="form-control is-invalid est" id="validationServer04" placeholder="Informe seu Estado" required>
+            <div class="invalid-feedback">
+              Por favor, informe um estado válido.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServer05">CEP</label>
+            <input type="text" class="form-control is-invalid cep" id="validationServer05" placeholder="Informe seu CEP" required>
+            <div class="invalid-feedback">
+              Por favor, informe um CEP válido.
+            </div>
+          </div>
+          </div>
+        
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+            <label class="form-check-label" for="invalidCheck3">
+              Concordo com os termos e condições
+            </label>
+            <div class="invalid-feedback">
+              Você deve concordar, antes de continuar.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </form>
     <footer>
         <h4>Desenvolvido por Ramon Rodrigues &copy;</h4>
     </footer>
+
+    <!-- Arquivos Owl Jquery-->
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+
 </body>
 </html>
