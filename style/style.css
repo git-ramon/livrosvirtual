@@ -121,7 +121,11 @@ form{
     width: 100%;
 }
 
-
+.termosuso, .politicaprivacidade{
+    color:black;
+    padding: 10px;
+    text-decoration: none;
+}
 
 
 

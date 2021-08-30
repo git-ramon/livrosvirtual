@@ -25,18 +25,64 @@
     <section>
         <h2 class="titulocontato">Contato</h2>
     </section>
+
     <form>
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault01">Primeiro nome</label>
+          <input type="text" class="form-control" id="validationDefault01" placeholder="Nome" value="Mark" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault02">Sobrenome</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="Sobrenome" value="Otto" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefaultUsername">Usuário</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            </div>
+            <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationDefault03">Cidade</label>
+          <input type="text" class="form-control" id="validationDefault03" placeholder="Cidade" required>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationDefault04">Estado</label>
+          <input type="text" class="form-control" id="validationDefault04" placeholder="Estado" required>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationDefault05">CEP</label>
+          <input type="text" class="form-control" id="validationDefault05" placeholder="CEP" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            Concordo com os termos e condições
+          </label>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Enviar</button>
+    </form>
+
+    <!--<form>
         <div class="form-row">
           <div class="col-md-4 mb-3">
             <label for="validationServer01">Primeiro nome</label>
-            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Nome" value="Informe seu Nome" required>
+            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Informe seu Nome" value="Nome" required>
             <div class="valid-feedback">
               Tudo certo!
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <label for="validationServer02">Sobrenome</label>
-            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Sobrenome" value="Informe seu Sobrenome" required>
+            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Informe seu Sobrenome" value="Sobrenome" required>
             <div class="valid-feedback">
               Tudo certo!
             </div>
@@ -83,7 +129,7 @@
           </div>
         </div>
         <button class="btn btn-primary" type="submit">Enviar</button>
-      </form>
+      </form> -->
     <footer>
         <h4>Desenvolvido por Ramon Rodrigues &copy;</h4>
     </footer>
@@ -92,6 +138,6 @@
   <script src="js/owl/jquery.min.js"></script>
   <script src="js/owl/owl.carousel.min.js"></script>
   <script src="js/owl/setup.js"></script>
-
+  
 </body>
 </html>
