@@ -2,9 +2,9 @@
 * {
     padding:0;
     margin:0;
-    vertical-align:baseline;
     list-style:none;
     border:0
+    
     } 
 
 nav{
@@ -14,13 +14,18 @@ nav{
     background-size: 100%;
 }
 
-body{
-    
+html{
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
     margin: 0px;
     background-image: url(../img/fundolivro.jpg);
     background-attachment: fixed;
     background-size: 100%;
     font-size: 15px;
+    height: 100%;
 }
 
 nav ul{
@@ -42,13 +47,13 @@ a:hover {
     
 	}
 
-footer{
+footer {
     display: block;
     background-color: rgb(111, 8, 247);
-    position:absolute;
+    position: fixed;
     bottom:0;
     width:100%;
-    
+    left:0;
 }
 
 section{
@@ -123,10 +128,17 @@ form{
 
 .termosuso, .politicaprivacidade{
     color:black;
-    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
     text-decoration: none;
+    
 }
 
+.textotermo, .textopolitica{
+    padding-block-end: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 
 
