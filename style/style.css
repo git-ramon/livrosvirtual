@@ -44,7 +44,7 @@ nav ul a{
 
 a:hover {
 	color:white;
-    
+    text-decoration: none;
 	}
 
 footer {
@@ -113,12 +113,6 @@ form{
     max-width: 900px;
     width: 100%;
 }
-/* .city{
-    min-width: 100px;
-    max-width: 290px;
-    width: 100%;
-}
-*/
 
 .est{
     min-width: 100px;
