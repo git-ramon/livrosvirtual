@@ -108,6 +108,7 @@ h2{
 }
 
 form{
+    padding-block-end: 70px;
     padding-left: 20px;
     min-width: 100px;
     max-width: 900px;
@@ -118,6 +119,11 @@ form{
     min-width: 100px;
     max-width: 290px;
     width: 100%;
+}
+
+.caixamsg{
+    width: 585px;
+    padding-block-end: 70px;
 }
 
 .termosuso, .politicaprivacidade{
