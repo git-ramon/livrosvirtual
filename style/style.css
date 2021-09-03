@@ -84,7 +84,10 @@ h2{
 }
 
 .carrosel-filmes{
-    margin-top: 4px;
+    margin-top: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    padding-block-end: 70px;
 }
 
 .box-filme{
@@ -139,6 +142,23 @@ form{
     padding-left: 15px;
     padding-right: 15px;
 }
+
+figure:hover {
+    border: thin green solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption:hover {
+    background-color: green;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
 
 
 
