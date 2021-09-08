@@ -50,7 +50,6 @@ a:hover {
 footer {
     display: block;
     background-color: rgb(111, 8, 247);
-    position: fixed;
     bottom:0;
     width:100%;
     left:0;
@@ -85,20 +84,20 @@ h2{
 
 .carrosel-filmes{
     margin-top: 10px;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    max-height: 70%;
     padding-block-end: 70px;
 }
 
 .box-filme{
-    height: 100%;
-    width: 100%;
+    height: 70%;
+    width: 70%;
     display: block;
 
 }
 
 .filme-principal .container{
-    width: 70%;
+    width: 100%;
 }
 
 .container{
@@ -150,6 +149,7 @@ figure:hover {
     padding: 5px;
     max-width: 220px;
     margin: auto;
+    
 }
 
 figcaption:hover{
@@ -159,5 +159,14 @@ figcaption:hover{
     text-align: center;
 }
 
+figcaption img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
 
+figcaption a{
+    text-decoration: none;
+    color:transparent;
+}
 
