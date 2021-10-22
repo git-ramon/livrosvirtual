@@ -5,20 +5,20 @@
  */
  .owl-carousel,.owl-carousel .owl-item{
     -webkit-tap-highlight-color:transparent;
-    position:relative
+    position:relative;
    }
 
 .owl-carousel{
    display:none;
    width:100%;
-   z-index:1
+   z-index:1;
 }
 
 .owl-carousel .owl-stage{
    position:relative;
    -ms-touch-action:pan-Y;
    touch-action:manipulation;
-   -moz-backface-visibility:hidden
+   -moz-backface-visibility:hidden;
 }
 .owl-carousel .owl-stage:after{
    content:".";
@@ -26,13 +26,13 @@
    clear:both;
    visibility:hidden;
    line-height:0;
-   height:0
+   height:0;
 }
 
 .owl-carousel .owl-stage-outer{
    position:relative;
    overflow:hidden;
-   -webkit-transform:translate3d(0,0,0)
+   -webkit-transform:translate3d(0,0,0);
 }
 
 .owl-carousel .owl-item,.owl-carousel .owl-wrapper{
@@ -41,20 +41,20 @@
    -ms-backface-visibility:hidden;
    -webkit-transform:translate3d(0,0,0);
    -moz-transform:translate3d(0,0,0);
-   -ms-transform:translate3d(0,0,0)
+   -ms-transform:translate3d(0,0,0);
 }
 
 .owl-carousel .owl-item{
    min-height:1px;
    float:left;
    -webkit-backface-visibility: hidden;
-   -webkit-touch-callout:none
+   -webkit-touch-callout:none;
 }
 
 .owl-carousel .owl-item img{
    display:block;
    width:100%;
-   height:100%;
+   height:90%;
 }
 
 .owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{
@@ -170,7 +170,7 @@ fadeOut{0%{opacity:1}100%{opacity:0}}
    cursor:pointer;
    z-index:1;
    -webkit-backface-visibility:hidden;
-   transition:transform .1s ease
+   transition:transform .1s ease;
 }
 
 .owl-carousel .owl-video-play-icon:hover{
@@ -179,7 +179,7 @@ fadeOut{0%{opacity:1}100%{opacity:0}}
 }
    
 .owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn{
-   display:none
+   display:none;
 }
 
 .owl-carousel .owl-video-tn{
@@ -188,11 +188,12 @@ fadeOut{0%{opacity:1}100%{opacity:0}}
    background-position:center center;
    background-repeat:no-repeat;
    background-size:contain;
-   transition:opacity .4s ease
+   transition:opacity .4s ease;
 }
 
 .owl-carousel .owl-video-frame{
    position:relative;
    z-index:1;
    height:100%;
-   width:100%}
+   width:100%;
+}

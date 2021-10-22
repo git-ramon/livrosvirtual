@@ -136,10 +136,16 @@ form{
     
 }
 
-.textotermo, .textopolitica{
-    padding-block-end: 70px;
+.textotermo, .textopolitica, .quemsomos{
+    padding-block-end: 10%;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.livrtemporaria {
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
 
 figure:hover {
@@ -149,14 +155,12 @@ figure:hover {
     padding: 5px;
     max-width: 220px;
     margin: auto;
-    
 }
 
 figcaption:hover{
     background-color: green;
     color: white;
-    padding: 3px;
-    text-align: center;
+    padding: 5px;
 }
 
 figcaption img{
@@ -168,5 +172,5 @@ figcaption img{
 figcaption a{
     text-decoration: none;
     color:transparent;
+    padding: 6px;
 }
-
