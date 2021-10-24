@@ -174,3 +174,10 @@ figcaption a{
     color:transparent;
     padding: 6px;
 }
+
+.msgemailsucess{
+    height: 90px;
+    line-height: 90px;
+    background-color: rgb(35, 175, 35);
+    justify-content: center;
+}

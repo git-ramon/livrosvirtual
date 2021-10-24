@@ -28,11 +28,11 @@
         <h2 class="titulocontato">Contato</h2>
     </section>
 
-    <form class="needs-validation" novalidate>
+    <form class="needs-validation" novalidate method="post" action="../sistemalivrariavirtual/php/enviaremail.php">
       <div class="form-row">
         <div class="col-md-4 mb-3">
           <label for="validationCustom01">Nome</label>
-          <input type="text" class="form-control" id="validationCustom01" placeholder="Informe seu Nome" required>
+          <input type="text" class="form-control" name="nome" id="validationCustom01" placeholder="Informe seu Nome" required>
           <div class="invalid-feedback">
             Por favor, informe seu Nome.
           </div>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-md-4 mb-3">
           <label for="validationCustom02">Sobrenome</label>
-          <input type="text" class="form-control" id="validationCustom02" placeholder="Informe seu Sobrenome" required>
+          <input type="text" class="form-control" name="sobrenome" id="validationCustom02" placeholder="Informe seu Sobrenome" required>
           <div class="invalid-feedback">
             Por favor, informe seu Sobrenome.
           </div>
@@ -54,7 +54,7 @@
       <div class="form-row">
         <div class="col-md-8 mb-3">
           <label for="validationCustom03">Cidade</label>
-          <input type="text" class="form-control" id="validationCustom03" placeholder="Informe sua Cidade" required>
+          <input type="text" class="form-control" name="cidade" id="validationCustom03" placeholder="Informe sua Cidade" required>
           <div class="invalid-feedback">
             Por favor, informe uma cidade.
           </div>
@@ -64,7 +64,7 @@
         </div>
         <div class="col-md-5 mb-3">
           <label for="validationCustom04">Estado</label>
-          <input type="text" class="form-control est" id="validationCustom04" placeholder="Informe seu Estado" required>
+          <input type="text" class="form-control est" name="estado" id="validationCustom04" placeholder="Informe seu Estado" required>
           <div class="invalid-feedback">
             Por favor, informe um estado.
           </div>
@@ -74,9 +74,19 @@
         </div>
         <div class="col-md-3 mb-3">
           <label for="validationCustom05">CEP</label>
-          <input type="text" class="form-control" id="validationCustom05" placeholder="Informe seu CEP" required>
+          <input type="text" class="form-control" name="cep" id="validationCustom05" placeholder="Informe seu CEP" required>
           <div class="invalid-feedback">
             Por favor, informe um CEP.
+          </div>
+          <div class="valid-feedback">
+            Tudo certo!
+          </div>
+        </div>
+        <div class="col-md-5 mb-3">
+          <label for="validationCustom04">Assunto</label>
+          <input type="text" class="form-control est" name="assunto" id="validationCustom04 assunto" placeholder="Informe o assunto" required>
+          <div class="invalid-feedback">
+            Por favor, informe o assunto a ser tratado.
           </div>
           <div class="valid-feedback">
             Tudo certo!
@@ -85,7 +95,7 @@
       </div>
       <div class="form-group ">
         <label for="validationTextarea">Escreva sua Mensagem</label>
-        <textarea class="form-control caixamsg" id="validationTextarea" rows="4" placeholder="Digite sua Mensagem" required></textarea>
+        <textarea class="form-control caixamsg" name="mensagem" id="validationTextarea" rows="4" placeholder="Digite sua Mensagem" required></textarea>
       </div>
       <div class="form-group">
         <div class="form-check">

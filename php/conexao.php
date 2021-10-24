@@ -1,6 +1,6 @@
 <?php
     $servidor = "127.0.0.1";
-    $user = "localhost";
+    $user = "root";
     $senha = "";
     $banco = "virtuallivraria";
 
