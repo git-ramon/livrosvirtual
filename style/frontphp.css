@@ -1,0 +1,78 @@
+* {
+    padding:0;
+    margin:0;
+    list-style:none;
+    border:0  
+    }
+
+h2{
+    text-align: center;
+    color: rgb(46, 146, 46);
+    padding: 10px;
+}
+
+label{
+    display: block;
+    margin: 10px;
+}
+
+input[type=text], textarea{
+    padding: 3px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid rgb(46, 146, 46);;
+
+    border-color: rgb(46, 146, 46);
+    background: linear-gradient(to bottom, rgb(30, 207, 30)5%, rgb(46, 146, 46)100%);
+    box-shadow: inset 0px 1px 0px 0px rgb(175, 241, 175);
+    color: white;
+}
+
+input[type=submit], button[type=submit]{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    padding: 7px;
+    width: 10%;
+
+    border-color: rgb(46, 146, 46);
+    background: linear-gradient(to bottom, rgb(30, 207, 30)5%, rgb(46, 146, 46)100%);
+    box-shadow: inset 0px 1px 0px 0px rgb(175, 241, 175);
+    color: white;
+}
+
+input[type=submit], button[type=submit]:hover{
+    background: linear-gradient(to bottom, rgb(46, 146, 46)5%, rgb(30, 207, 30)100%);
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: rgb(46, 153, 46);
+    font-size: 15px;
+}
+
+table td {
+    border-bottom: 1px solid rgb(46, 153, 46);
+    background-color: rgb(176, 241, 176);
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.linkeditar, .linkeexcluir{
+    color: black;
+    text-decoration: none;
+}
+
+tr:hover td{
+    background-color: rgb(46, 153, 46);
+}

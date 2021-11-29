@@ -1,0 +1,183 @@
+
+* {
+    padding:0;
+    margin:0;
+    list-style:none;
+    border:0
+    
+    } 
+
+nav{
+    
+    display: block;
+    background-image: url(img/fundolivro.jpg);
+    background-size: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0px;
+    background-image: url(../img/fundolivro.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    font-size: 15px;
+    height: 100%;
+}
+
+nav ul{
+    display: inline-flex;
+}
+
+nav ul li{ 
+    padding: 10px;
+}
+
+nav ul a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+	color:white;
+    text-decoration: none;
+	}
+
+footer {
+    display: block;
+    background-color: rgb(111, 8, 247);
+    bottom:0;
+    width:100%;
+    left:0;
+}
+
+section{
+    margin-left: 10px;  
+}
+
+footer h4{
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.titulolivraria{
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: rgb(109, 105, 105) 4px 4px 4px;
+}
+
+h2{
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: rgb(109, 105, 105) 4px 4px 4px;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
+    width: 100%;
+    max-height: 70%;
+    padding-block-end: 70px;
+}
+
+.box-filme{
+    height: 70%;
+    width: 70%;
+    display: block;
+
+}
+
+.filme-principal .container{
+    width: 100%;
+}
+
+.container{
+    margin-left: 15px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+form{
+    padding-block-end: 70px;
+    padding-left: 20px;
+    min-width: 100px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.est{
+    min-width: 100px;
+    max-width: 290px;
+    width: 100%;
+}
+
+.caixamsg{
+    width: 585px;
+    padding-block-end: 70px;
+}
+
+.termosuso, .politicaprivacidade{
+    color:black;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    
+}
+
+.textotermo, .textopolitica, .quemsomos{
+    padding-block-end: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.livrtemporaria {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+figure:hover {
+    border: thin green solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figcaption:hover{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+figcaption img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+figcaption a{
+    text-decoration: none;
+    color:transparent;
+    padding: 6px;
+}
+
+.msgemailsucess{
+    height: 90px;
+    line-height: 90px;
+    background-color: rgb(35, 175, 35);
+    justify-content: center;
+}

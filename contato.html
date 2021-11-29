@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style/style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="livrariavirtual.html">Livraria Virtual</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="../sistemalivrariavirtual/php/listadesejo.php">Lista de Desejos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2 class="titulocontato">Contato</h2>
+    </section>
+
+    <form class="needs-validation" novalidate method="post" action="../sistemalivrariavirtual/php/enviaremail.php">
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom01">Nome</label>
+          <input type="text" class="form-control" name="nome" id="validationCustom01" placeholder="Informe seu Nome" required>
+          <div class="invalid-feedback">
+            Por favor, informe seu Nome.
+          </div>
+          <div class="valid-feedback">
+            Tudo certo!
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom02">Sobrenome</label>
+          <input type="text" class="form-control" name="sobrenome" id="validationCustom02" placeholder="Informe seu Sobrenome" required>
+          <div class="invalid-feedback">
+            Por favor, informe seu Sobrenome.
+          </div>
+          <div class="valid-feedback">
+            Tudo certo!
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-8 mb-3">
+          <label for="validationCustom03">Cidade</label>
+          <input type="text" class="form-control" name="cidade" id="validationCustom03" placeholder="Informe sua Cidade" required>
+          <div class="invalid-feedback">
+            Por favor, informe uma cidade.
+          </div>
+          <div class="valid-feedback">
+            Tudo certo!
+          </div>
+        </div>
+        <div class="col-md-5 mb-3">
+          <label for="validationCustom04">Estado</label>
+          <input type="text" class="form-control est" name="estado" id="validationCustom04" placeholder="Informe seu Estado" required>
+          <div class="invalid-feedback">
+            Por favor, informe um estado.
+          </div>
+          <div class="valid-feedback">
+            Tudo certo!
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom05">CEP</label>
+          <input type="text" class="form-control" name="cep" id="validationCustom05" placeholder="Informe seu CEP" required>
+          <div class="invalid-feedback">
+            Por favor, informe um CEP.
+          </div>
+          <div class="valid-feedback">
+            Tudo certo!
+          </div>
+        </div>
+        <div class="col-md-5 mb-3">
+          <label for="validationCustom04">Assunto</label>
+          <input type="text" class="form-control est" name="assunto" id="validationCustom04 assunto" placeholder="Informe o assunto" required>
+          <div class="invalid-feedback">
+            Por favor, informe o assunto a ser tratado.
+          </div>
+          <div class="valid-feedback">
+            Tudo certo!
+          </div>
+        </div>
+      </div>
+      <div class="form-group ">
+        <label for="validationTextarea">Escreva sua Mensagem</label>
+        <textarea class="form-control caixamsg" name="mensagem" id="validationTextarea" rows="4" placeholder="Digite sua Mensagem" required></textarea>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Concordo com os termos e condições
+          </label>
+          <div class="invalid-feedback">
+            Você deve concordar, antes de continuar.
+          </div>
+          <div class="valid-feedback">
+            Os termos foram Aceito!
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit" >Enviar</button>
+    </form>
+
+    <footer>
+      <h4>Desenvolvido por Ramon Rodrigues &copy;</h4> 
+      <a href="politicaprivacidade.html" class="politicaprivacidade">Politica de Privacidade</a>
+      <a href="termodeuso.html" class="termosuso">Termos de Uso</a> 
+  </footer>
+
+    <!-- Arquivos Owl Jquery-->
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+  <script src="js/owl/formvalidation.js"></script>
+
+</body>
+</html>
